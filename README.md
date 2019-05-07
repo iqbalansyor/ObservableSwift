@@ -17,7 +17,7 @@ Previous research `ObservableProtocol` on Objective-C: https://github.com/iqbala
 
 
 ### TODO
-- Creating a dummy flow to better understanding using of this class
+- Creating a dummy flow to better understanding using of this class with view model
 - Adding documentation how to using this class on `.md`
 
 Create `issue` if anything you want to ask or contribute.
