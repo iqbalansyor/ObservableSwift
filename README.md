@@ -1,12 +1,12 @@
 # ObservableSwift
 
-`Observable` on Swift
+`Observable` on Swift. Class: https://github.com/iqbalansyor/ObservableSwift/tree/master/ObservableSwift/Observable
 
 Previous research `ObservableProtocol` on Objective-C: https://github.com/iqbalansyor/ObserverProtocol
 
 
 #### Limitation of Objective-C:
-- Generic type can't provide for primitive type (`BOOL`, `float` and etc)
+- Generic type can't provide for primitive type (`BOOL`, `float`, `Void` and etc)
 
 
 ### TODO
