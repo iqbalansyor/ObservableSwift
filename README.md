@@ -1,9 +1,13 @@
-# ObservableSwift
+# Observable Swift
 
 `Observable` on Swift. 
 Class: https://github.com/iqbalansyor/ObservableSwift/tree/master/ObservableSwift/Observable
 
 ##### Hopefully, it can be an alternative to ViewModel's Action and Protocol without much hassles.
+
+##### Reference
+- https://colindrake.me/post/an-observable-pattern-implementation-in-swift/
+- https://github.com/ReactiveX/RxSwift
 
 Previous research `ObservableProtocol` on Objective-C: https://github.com/iqbalansyor/ObserverProtocol
 
