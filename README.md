@@ -5,6 +5,18 @@ Class: https://github.com/iqbalansyor/ObservableSwift/tree/master/ObservableSwif
 
 ##### Hopefully, it can be an alternative to ViewModel's Action and Protocol without much hassles.
 
+###### Initializer
+```let stringPassed: Observable<String> = Observable(value: "initial value")```
+
+###### Publish value
+```viewModel.stringPassed.value = "String Passed"```
+
+###### Trigger block on `Void`
+```viewModel.voidPassed.next()```
+
+###### Subscribe value
+```viewModel.stringPassed.subscribe(observer: self) { [weak self] (text) in // Change value here }```
+
 ##### Reference
 - https://colindrake.me/post/an-observable-pattern-implementation-in-swift/
 - https://github.com/ReactiveX/RxSwift
