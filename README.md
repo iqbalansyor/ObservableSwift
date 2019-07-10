@@ -22,6 +22,7 @@ Class: https://github.com/iqbalansyor/ObservableSwift/tree/master/ObservableSwif
 
 ###### Subscribe value
 + ```viewModel.stringPassed.subscribe(observer: self) { [weak self] (text) in // Change value here }```
++ ```_ = viewModel.voidPassed.subscribe(observer: self) { [weak self] (_) in // Do action here } ```
 
 ##### Observable on Objective-C
 Previous research `ObservableProtocol` on Objective-C: https://github.com/iqbalansyor/ObserverProtocol
