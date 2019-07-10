@@ -25,7 +25,7 @@ Class: https://github.com/iqbalansyor/ObservableSwift/tree/master/ObservableSwif
 + ```_ = viewModel.voidPassed.subscribe(observer: self) { [weak self] (_) in // Do action here } ```
 
 ##### Observable on Objective-C
-Previous research `ObservableProtocol` on Objective-C: https://github.com/iqbalansyor/ObserverProtocol
+- Previous research `ObservableProtocol` on Objective-C: https://github.com/iqbalansyor/ObserverProtocol/tree/master/ObserverProtocolExample/TVL
 
 ###### Limitation of Objective-C:
 - Generic type can't provide for primitive type (`BOOL`, `float`, `Void` and etc)
