@@ -12,16 +12,16 @@ Class: https://github.com/iqbalansyor/ObservableSwift/tree/master/ObservableSwif
 ##### How to use it
 
 ###### Initializer
-```let stringPassed: Observable<String> = Observable(value: "initial value")```
++ ```let stringPassed: Observable<String> = Observable(value: "initial value")```
 
 ###### Publish value
-```viewModel.stringPassed.value = "String Passed"```
++ ```viewModel.stringPassed.value = "String Passed"```
 
 ###### Trigger block on `Void`
-```viewModel.voidPassed.next()```
++ ```viewModel.voidPassed.next()```
 
 ###### Subscribe value
-```viewModel.stringPassed.subscribe(observer: self) { [weak self] (text) in // Change value here }```
++ ```viewModel.stringPassed.subscribe(observer: self) { [weak self] (text) in // Change value here }```
 
 ##### Observable on Objective-C
 Previous research `ObservableProtocol` on Objective-C: https://github.com/iqbalansyor/ObserverProtocol
