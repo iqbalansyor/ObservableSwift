@@ -7,7 +7,7 @@ Class: https://github.com/iqbalansyor/ObservableSwift/tree/master/ObservableSwif
 
 ##### TODO
 - Creating a dummy flow to better understanding using of this class with view model
-- Adding documentation how to using this class on `.md`
+- Adding documentation how to using this class on `.md` (v)
 
 ##### How to use it
 
